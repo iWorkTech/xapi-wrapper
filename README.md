@@ -1,8 +1,9 @@
 
-# Welcome to the TINCAN .NET Standard Library.
+# Welcome to the xAPIWrapper - a .NET Standard Library for interfacing with any Learning Record Store (LRS)
 - **ver v1.0.0 Beta
 - More information about xAPI/TINCAN can be found here [ADL](https://www.adlnet.gov/adl-research/performance-tracking-analysis/experience-api/)
-- For technical documentation please refer to this site on [TINCAN API](http://tincanapi.com/)
+- For technical documentation please refer to this site [TINCAN API](http://tincanapi.com/)
+- For more information on Xamarin refer to this site [Xamarin](http://www.xamarin.com/)
 
 ## Quick Start Notes:
 1. TINCAN Standard Library is a .NET Standard 1.6 compatible library
