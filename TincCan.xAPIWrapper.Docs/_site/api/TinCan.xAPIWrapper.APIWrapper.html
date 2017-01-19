@@ -1,0 +1,1713 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class APIWrapper
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class APIWrapper
+   ">
+    <meta name="generator" content="docfx 2.10.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <h1 id="TinCan_xAPIWrapper_APIWrapper" data-uid="TinCan.xAPIWrapper.APIWrapper">Class APIWrapper
+              </h1>
+              <div class="markdown level0 summary"><p>Class xAPIWrapper.</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">APIWrapper</span></div>
+              </div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <span class="xref">System.Object.ToString()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetHashCode()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetType()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.MemberwiseClone()</span>
+                </div>
+              </div>
+              <h6><strong>Namespace</strong>:TinCan.xAPIWrapper</h6>
+              <h6><strong>Assembly</strong>:TincCan.xAPIWrapper.Docs.dll</h6>
+              <h5 id="TinCan_xAPIWrapper_APIWrapper_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public class APIWrapper : IXAPIWrapper, IDisposable</code></pre>
+              </div>
+              <h3 id="constructors">Constructors
+              </h3>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=44">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper__ctor_" data-uid="TinCan.xAPIWrapper.APIWrapper.#ctor*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper__ctor_System_String_System_String_System_String_" data-uid="TinCan.xAPIWrapper.APIWrapper.#ctor(System.String,System.String,System.String)">APIWrapper(String, String, String)</h4>
+              <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="TinCan.xAPIWrapper.APIWrapper.html">APIWrapper</a> class.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public APIWrapper(string endpoint, string username, string password)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">endpoint</span></td>
+                    <td><p>The endpoint.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">username</span></td>
+                    <td><p>The username.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">password</span></td>
+                    <td><p>The password.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="methods">Methods
+              </h3>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=76">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_About_" data-uid="TinCan.xAPIWrapper.APIWrapper.About*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_About" data-uid="TinCan.xAPIWrapper.APIWrapper.About">About()</h4>
+              <div class="markdown level1 summary"><p>Abouts this instance.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task&lt;AboutLRSResponse&gt; About()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="TinCan.Standard.LRSResponses.AboutLRSResponse.html">AboutLRSResponse</a>&gt;</td>
+                    <td><p>Task&lt;LRSResponse&gt;.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=89">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_ChangeConfig_" data-uid="TinCan.xAPIWrapper.APIWrapper.ChangeConfig*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_ChangeConfig_System_String_System_String_System_String_" data-uid="TinCan.xAPIWrapper.APIWrapper.ChangeConfig(System.String,System.String,System.String)">ChangeConfig(String, String, String)</h4>
+              <div class="markdown level1 summary"><p>Changes the configuration.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void ChangeConfig(string endpoint, string username, string password)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">endpoint</span></td>
+                    <td><p>The endpoint.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">username</span></td>
+                    <td><p>The username.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">password</span></td>
+                    <td><p>The password.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.NotImplementedException</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=356">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_DeleteActivityProfile_" data-uid="TinCan.xAPIWrapper.APIWrapper.DeleteActivityProfile*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_DeleteActivityProfile_System_String_System_String_System_String_System_String_" data-uid="TinCan.xAPIWrapper.APIWrapper.DeleteActivityProfile(System.String,System.String,System.String,System.String)">DeleteActivityProfile(String, String, String, String)</h4>
+              <div class="markdown level1 summary"><p>Deletes the activity profile.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task&lt;LRSResponse&gt; DeleteActivityProfile(string activityId, string profileId, string matchHash, string noneMatchHash)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">activityId</span></td>
+                    <td><p>The activity identifier.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">profileId</span></td>
+                    <td><p>The profile identifier.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">matchHash</span></td>
+                    <td><p>The match hash.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">noneMatchHash</span></td>
+                    <td><p>The none match hash.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="TinCan.Standard.LRSResponses.LRSResponse.html">LRSResponse</a>&gt;</td>
+                    <td><p>Task&lt;LRSResponse&gt;.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.NotImplementedException</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=426">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_DeleteAgentProfile_" data-uid="TinCan.xAPIWrapper.APIWrapper.DeleteAgentProfile*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_DeleteAgentProfile_TinCan_Standard_Agent_System_String_System_String_System_String_" data-uid="TinCan.xAPIWrapper.APIWrapper.DeleteAgentProfile(TinCan.Standard.Agent,System.String,System.String,System.String)">DeleteAgentProfile(Agent, String, String, String)</h4>
+              <div class="markdown level1 summary"><p>Deletes the agent profile.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task&lt;LRSResponse&gt; DeleteAgentProfile(Agent agent, string profileId, string matchHash, string noneMatchHash)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="TinCan.Standard.Agent.html">Agent</a></td>
+                    <td><span class="parametername">agent</span></td>
+                    <td><p>The agent.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">profileId</span></td>
+                    <td><p>The profile identifier.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">matchHash</span></td>
+                    <td><p>The match hash.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">noneMatchHash</span></td>
+                    <td><p>The none match hash.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="TinCan.Standard.LRSResponses.LRSResponse.html">LRSResponse</a>&gt;</td>
+                    <td><p>Task&lt;LRSResponse&gt;.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.NotImplementedException</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=293">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_DeleteState_" data-uid="TinCan.xAPIWrapper.APIWrapper.DeleteState*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_DeleteState_System_String_TinCan_Standard_Agent_System_String_System_Nullable_System_Guid__System_String_System_String_System_String_" data-uid="TinCan.xAPIWrapper.APIWrapper.DeleteState(System.String,TinCan.Standard.Agent,System.String,System.Nullable{System.Guid},System.String,System.String,System.String)">DeleteState(String, Agent, String, Nullable&lt;Guid&gt;, String, String, String)</h4>
+              <div class="markdown level1 summary"><p>Deletes the state.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task&lt;LRSResponse&gt; DeleteState(string activityId, Agent agent, string stateId, Guid? registration, string stateVal, string matchHash, string noneMatchHash)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">activityId</span></td>
+                    <td><p>The activity identifier.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="TinCan.Standard.Agent.html">Agent</a></td>
+                    <td><span class="parametername">agent</span></td>
+                    <td><p>The agent.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">stateId</span></td>
+                    <td><p>The state identifier.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Guid</span>&gt;</td>
+                    <td><span class="parametername">registration</span></td>
+                    <td><p>The registration.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">stateVal</span></td>
+                    <td><p>The state value.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">matchHash</span></td>
+                    <td><p>The match hash.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">noneMatchHash</span></td>
+                    <td><p>The none match hash.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="TinCan.Standard.LRSResponses.LRSResponse.html">LRSResponse</a>&gt;</td>
+                    <td><p>Task&lt;LRSResponse&gt;.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.NotImplementedException</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=441">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_Dispose_" data-uid="TinCan.xAPIWrapper.APIWrapper.Dispose*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_Dispose" data-uid="TinCan.xAPIWrapper.APIWrapper.Dispose">Dispose()</h4>
+              <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+              </div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.NotImplementedException</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=229">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_GetActivity_" data-uid="TinCan.xAPIWrapper.APIWrapper.GetActivity*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_GetActivity_System_String_TinCan_Standard_Activity_" data-uid="TinCan.xAPIWrapper.APIWrapper.GetActivity(System.String,TinCan.Standard.Activity)">GetActivity(String, Activity)</h4>
+              <div class="markdown level1 summary"><p>Gets the activities.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task&lt;ActivityProfileLRSResponse&gt; GetActivity(string activityId, Activity activity)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">activityId</span></td>
+                    <td><p>The activity identifier.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="TinCan.Standard.Activity.html">Activity</a></td>
+                    <td><span class="parametername">activity</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="TinCan.Standard.LRSResponses.ActivityProfileLRSResponse.html">ActivityProfileLRSResponse</a>&gt;</td>
+                    <td><p>List&lt;Activity&gt;.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.NotImplementedException</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=341">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_GetActivityProfile_" data-uid="TinCan.xAPIWrapper.APIWrapper.GetActivityProfile*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_GetActivityProfile_System_String_System_String_System_Nullable_System_DateTime__" data-uid="TinCan.xAPIWrapper.APIWrapper.GetActivityProfile(System.String,System.String,System.Nullable{System.DateTime})">GetActivityProfile(String, String, Nullable&lt;DateTime&gt;)</h4>
+              <div class="markdown level1 summary"><p>Gets the activity profile.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task&lt;ActivityProfileLRSResponse&gt; GetActivityProfile(string activityId, string profileId, DateTime? since)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">activityId</span></td>
+                    <td><p>The activity identifier.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">profileId</span></td>
+                    <td><p>The profile identifier.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+                    <td><span class="parametername">since</span></td>
+                    <td><p>The since.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="TinCan.Standard.LRSResponses.ActivityProfileLRSResponse.html">ActivityProfileLRSResponse</a>&gt;</td>
+                    <td><p>Task&lt;LRSResponse&gt;.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.NotImplementedException</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=376">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_GetAgent_" data-uid="TinCan.xAPIWrapper.APIWrapper.GetAgent*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_GetAgent_TinCan_Standard_Agent_" data-uid="TinCan.xAPIWrapper.APIWrapper.GetAgent(TinCan.Standard.Agent)">GetAgent(Agent)</h4>
+              <div class="markdown level1 summary"><p>Gets the agents.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task&lt;AgentProfileLRSResponse&gt; GetAgent(Agent agent)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="TinCan.Standard.Agent.html">Agent</a></td>
+                    <td><span class="parametername">agent</span></td>
+                    <td><p>The agent.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="TinCan.Standard.LRSResponses.AgentProfileLRSResponse.html">AgentProfileLRSResponse</a>&gt;</td>
+                    <td><p>Task&lt;LRSResponse&gt;.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.NotImplementedException</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=411">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_GetAgentProfile_" data-uid="TinCan.xAPIWrapper.APIWrapper.GetAgentProfile*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_GetAgentProfile_System_String_System_String_System_Nullable_System_DateTime__" data-uid="TinCan.xAPIWrapper.APIWrapper.GetAgentProfile(System.String,System.String,System.Nullable{System.DateTime})">GetAgentProfile(String, String, Nullable&lt;DateTime&gt;)</h4>
+              <div class="markdown level1 summary"><p>Gets the agent profile.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task&lt;LRSResponse&gt; GetAgentProfile(string agentId, string profileId, DateTime? since)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">agentId</span></td>
+                    <td><p>The agent identifier.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">profileId</span></td>
+                    <td><p>The profile identifier.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+                    <td><span class="parametername">since</span></td>
+                    <td><p>The since.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="TinCan.Standard.LRSResponses.LRSResponse.html">LRSResponse</a>&gt;</td>
+                    <td><p>Task&lt;LRSResponse&gt;.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.NotImplementedException</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=274">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_GetState_" data-uid="TinCan.xAPIWrapper.APIWrapper.GetState*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_GetState_System_String_TinCan_Standard_Agent_System_String_System_Nullable_System_Guid__System_String_System_String_System_String_" data-uid="TinCan.xAPIWrapper.APIWrapper.GetState(System.String,TinCan.Standard.Agent,System.String,System.Nullable{System.Guid},System.String,System.String,System.String)">GetState(String, Agent, String, Nullable&lt;Guid&gt;, String, String, String)</h4>
+              <div class="markdown level1 summary"><p>Gets the state.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task&lt;StateLRSResponse&gt; GetState(string activityId, Agent agent, string stateId, Guid? registration, string stateVal, string matchHash, string noneMatchHash)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">activityId</span></td>
+                    <td><p>The activity identifier.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="TinCan.Standard.Agent.html">Agent</a></td>
+                    <td><span class="parametername">agent</span></td>
+                    <td><p>The agent.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">stateId</span></td>
+                    <td><p>The state identifier.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Guid</span>&gt;</td>
+                    <td><span class="parametername">registration</span></td>
+                    <td><p>The registration.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">stateVal</span></td>
+                    <td><p>The state value.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">matchHash</span></td>
+                    <td><p>The match hash.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">noneMatchHash</span></td>
+                    <td><p>The none match hash.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="TinCan.Standard.LRSResponses.StateLRSResponse.html">StateLRSResponse</a>&gt;</td>
+                    <td><p>Task&lt;LRSResponse&gt;.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.NotImplementedException</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=213">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_GetStatements_" data-uid="TinCan.xAPIWrapper.APIWrapper.GetStatements*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_GetStatements_System_DateTime_System_Int32_" data-uid="TinCan.xAPIWrapper.APIWrapper.GetStatements(System.DateTime,System.Int32)">GetStatements(DateTime, Int32)</h4>
+              <div class="markdown level1 summary"><p>Gets the statements.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task&lt;StatementsResultLRSResponse&gt; GetStatements(DateTime since, int limit)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.DateTime</span></td>
+                    <td><span class="parametername">since</span></td>
+                    <td><p>Since a particular date</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><span class="parametername">limit</span></td>
+                    <td><p>Limit or size of the resultset</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="TinCan.Standard.LRSResponses.StatementsResultLRSResponse.html">StatementsResultLRSResponse</a>&gt;</td>
+                    <td><p>List&lt;Statement&gt;.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.NotImplementedException</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=201">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_GetStatements_" data-uid="TinCan.xAPIWrapper.APIWrapper.GetStatements*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_GetStatements_TinCan_Standard_StatementsQuery_" data-uid="TinCan.xAPIWrapper.APIWrapper.GetStatements(TinCan.Standard.StatementsQuery)">GetStatements(StatementsQuery)</h4>
+              <div class="markdown level1 summary"><p>Gets the statements.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task&lt;StatementsResultLRSResponse&gt; GetStatements(StatementsQuery searchParams)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="TinCan.Standard.StatementsQuery.html">StatementsQuery</a></td>
+                    <td><span class="parametername">searchParams</span></td>
+                    <td><p>The search parameters.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="TinCan.Standard.LRSResponses.StatementsResultLRSResponse.html">StatementsResultLRSResponse</a>&gt;</td>
+                    <td><p>List&lt;Statement&gt;.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.NotImplementedException</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=63">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_Init_" data-uid="TinCan.xAPIWrapper.APIWrapper.Init*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_Init_System_String_System_String_System_String_" data-uid="TinCan.xAPIWrapper.APIWrapper.Init(System.String,System.String,System.String)">Init(String, String, String)</h4>
+              <div class="markdown level1 summary"><p>Initializes this instance.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Init(string endpoint, string username, string password)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">endpoint</span></td>
+                    <td><p>The endpoint.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">username</span></td>
+                    <td><p>The username.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">password</span></td>
+                    <td><p>The password.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=121">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_PrepareStatement_" data-uid="TinCan.xAPIWrapper.APIWrapper.PrepareStatement*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_PrepareStatement_System_String_System_String_System_String_" data-uid="TinCan.xAPIWrapper.APIWrapper.PrepareStatement(System.String,System.String,System.String)">PrepareStatement(String, String, String)</h4>
+              <div class="markdown level1 summary"><p>Prepares the statement.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Statement PrepareStatement(string agentEmail, string verb, string activityType)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">agentEmail</span></td>
+                    <td><p>The agent.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">verb</span></td>
+                    <td><p>The verb.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">activityType</span></td>
+                    <td><p>The target.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="TinCan.Standard.Statement.html">Statement</a></td>
+                    <td><p>Statement.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=102">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_PrepareStatement_" data-uid="TinCan.xAPIWrapper.APIWrapper.PrepareStatement*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_PrepareStatement_TinCan_Standard_Agent_TinCan_Standard_Verb_TinCan_Standard_IStatementTarget_" data-uid="TinCan.xAPIWrapper.APIWrapper.PrepareStatement(TinCan.Standard.Agent,TinCan.Standard.Verb,TinCan.Standard.IStatementTarget)">PrepareStatement(Agent, Verb, IStatementTarget)</h4>
+              <div class="markdown level1 summary"><p>Prepares the statement.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Statement PrepareStatement(Agent agent, Verb verb, IStatementTarget target)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="TinCan.Standard.Agent.html">Agent</a></td>
+                    <td><span class="parametername">agent</span></td>
+                    <td><p>The agent.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="TinCan.Standard.Verb.html">Verb</a></td>
+                    <td><span class="parametername">verb</span></td>
+                    <td><p>The verb.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="TinCan.Standard.IStatementTarget.html">IStatementTarget</a></td>
+                    <td><span class="parametername">target</span></td>
+                    <td><p>The target.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="TinCan.Standard.Statement.html">Statement</a></td>
+                    <td><p>Statement.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.NotImplementedException</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=319">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_SendActivityProfile_" data-uid="TinCan.xAPIWrapper.APIWrapper.SendActivityProfile*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_SendActivityProfile_System_String_System_String_System_String_System_String_System_String_" data-uid="TinCan.xAPIWrapper.APIWrapper.SendActivityProfile(System.String,System.String,System.String,System.String,System.String)">SendActivityProfile(String, String, String, String, String)</h4>
+              <div class="markdown level1 summary"><p>Sends the activity profile.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task&lt;LRSResponse&gt; SendActivityProfile(string activityId, string profileId, string profilEval, string matchHash, string noneMatchHash)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">activityId</span></td>
+                    <td><p>The activity identifier.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">profileId</span></td>
+                    <td><p>The profile identifier.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">profilEval</span></td>
+                    <td><p>The profil eval.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">matchHash</span></td>
+                    <td><p>The match hash.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">noneMatchHash</span></td>
+                    <td><p>The none match hash.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="TinCan.Standard.LRSResponses.LRSResponse.html">LRSResponse</a>&gt;</td>
+                    <td><p>Task&lt;LRSResponse&gt;.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=391">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_SendAgentProfile_" data-uid="TinCan.xAPIWrapper.APIWrapper.SendAgentProfile*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_SendAgentProfile_TinCan_Standard_Agent_System_String_System_String_System_String_System_String_" data-uid="TinCan.xAPIWrapper.APIWrapper.SendAgentProfile(TinCan.Standard.Agent,System.String,System.String,System.String,System.String)">SendAgentProfile(Agent, String, String, String, String)</h4>
+              <div class="markdown level1 summary"><p>Sends the agent profile.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task&lt;LRSResponse&gt; SendAgentProfile(Agent agent, string profileId, string profilEval, string matchHash, string noneMatchHash)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="TinCan.Standard.Agent.html">Agent</a></td>
+                    <td><span class="parametername">agent</span></td>
+                    <td><p>The agent.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">profileId</span></td>
+                    <td><p>The profile identifier.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">profilEval</span></td>
+                    <td><p>The profil eval.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">matchHash</span></td>
+                    <td><p>The match hash.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">noneMatchHash</span></td>
+                    <td><p>The none match hash.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="TinCan.Standard.LRSResponses.LRSResponse.html">LRSResponse</a>&gt;</td>
+                    <td><p>Task&lt;LRSResponse&gt;.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.NotImplementedException</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=246">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_SendState_" data-uid="TinCan.xAPIWrapper.APIWrapper.SendState*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_SendState_System_String_TinCan_Standard_Agent_System_String_System_Nullable_System_Guid__System_String_System_String_System_String_" data-uid="TinCan.xAPIWrapper.APIWrapper.SendState(System.String,TinCan.Standard.Agent,System.String,System.Nullable{System.Guid},System.String,System.String,System.String)">SendState(String, Agent, String, Nullable&lt;Guid&gt;, String, String, String)</h4>
+              <div class="markdown level1 summary"><p>Sends the state.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task&lt;LRSResponse&gt; SendState(string activityId, Agent agent, string stateId, Guid? registration, string stateVal, string matchHash, string noneMatchHash)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">activityId</span></td>
+                    <td><p>The activity identifier.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="TinCan.Standard.Agent.html">Agent</a></td>
+                    <td><span class="parametername">agent</span></td>
+                    <td><p>The agent.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">stateId</span></td>
+                    <td><p>The state identifier.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Guid</span>&gt;</td>
+                    <td><span class="parametername">registration</span></td>
+                    <td><p>The registration.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">stateVal</span></td>
+                    <td><p>The state value.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">matchHash</span></td>
+                    <td><p>The match hash.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">noneMatchHash</span></td>
+                    <td><p>The none match hash.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="TinCan.Standard.LRSResponses.LRSResponse.html">LRSResponse</a>&gt;</td>
+                    <td><p>LRSResponse.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.NotImplementedException</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=163">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_SendStatement_" data-uid="TinCan.xAPIWrapper.APIWrapper.SendStatement*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_SendStatement_TinCan_Standard_Agent_TinCan_Standard_Verb_TinCan_Standard_IStatementTarget_" data-uid="TinCan.xAPIWrapper.APIWrapper.SendStatement(TinCan.Standard.Agent,TinCan.Standard.Verb,TinCan.Standard.IStatementTarget)">SendStatement(Agent, Verb, IStatementTarget)</h4>
+              <div class="markdown level1 summary"><p>Sends the statement.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task&lt;LRSResponse&gt; SendStatement(Agent agent, Verb verb, IStatementTarget target)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="TinCan.Standard.Agent.html">Agent</a></td>
+                    <td><span class="parametername">agent</span></td>
+                    <td><p>The agent.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="TinCan.Standard.Verb.html">Verb</a></td>
+                    <td><span class="parametername">verb</span></td>
+                    <td><p>The verb.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="TinCan.Standard.IStatementTarget.html">IStatementTarget</a></td>
+                    <td><span class="parametername">target</span></td>
+                    <td><p>The target.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="TinCan.Standard.LRSResponses.LRSResponse.html">LRSResponse</a>&gt;</td>
+                    <td><p>Task&lt;LRSResponse&gt;.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=151">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_SendStatement_" data-uid="TinCan.xAPIWrapper.APIWrapper.SendStatement*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_SendStatement_TinCan_Standard_Statement_" data-uid="TinCan.xAPIWrapper.APIWrapper.SendStatement(TinCan.Standard.Statement)">SendStatement(Statement)</h4>
+              <div class="markdown level1 summary"><p>Sends the statement.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task&lt;StatementLRSResponse&gt; SendStatement(Statement statement)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="TinCan.Standard.Statement.html">Statement</a></td>
+                    <td><span class="parametername">statement</span></td>
+                    <td><p>The statement.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="TinCan.Standard.LRSResponses.StatementLRSResponse.html">StatementLRSResponse</a>&gt;</td>
+                    <td><p>LRSResponse.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.NotImplementedException</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=190">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_SendStatements_" data-uid="TinCan.xAPIWrapper.APIWrapper.SendStatements*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_SendStatements_System_Collections_Generic_List_TinCan_Standard_Statement__" data-uid="TinCan.xAPIWrapper.APIWrapper.SendStatements(System.Collections.Generic.List{TinCan.Standard.Statement})">SendStatements(List&lt;Statement&gt;)</h4>
+              <div class="markdown level1 summary"><p>Sends the statements.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task&lt;StatementsResultLRSResponse&gt; SendStatements(List&lt;Statement&gt; statements)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="TinCan.Standard.Statement.html">Statement</a>&gt;</td>
+                    <td><span class="parametername">statements</span></td>
+                    <td><p>The statements.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="TinCan.Standard.LRSResponses.StatementsResultLRSResponse.html">StatementsResultLRSResponse</a>&gt;</td>
+                    <td><p>LRSResponse.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.NotImplementedException</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="eii">Explicit Interface Implementations
+              </h3>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=52">View Source</a>
+              </span>
+              <a id="TinCan_xAPIWrapper_APIWrapper_System_IDisposable_Dispose_" data-uid="TinCan.xAPIWrapper.APIWrapper.System#IDisposable#Dispose*"></a>
+              <h4 id="TinCan_xAPIWrapper_APIWrapper_System_IDisposable_Dispose" data-uid="TinCan.xAPIWrapper.APIWrapper.System#IDisposable#Dispose">IDisposable.Dispose()</h4>
+              <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">void IDisposable.Dispose()</code></pre>
+              </div>
+              <h5 class="implements">Implements</h5>
+                  <div><span class="xref">System.IDisposable.Dispose()</span></div>
+              <h3 id="seealso">See Also</h3>
+              <div class="seealso">
+                  <div><span class="xref">TinCan.xAPIWrapper.IXAPIWrapper</span></div>
+                  <div><span class="xref">TinCan.xAPIWrapper.IXAPIWrapper</span></div>
+                  <div><span class="xref">TinCan.xAPIWrapper.IXAPIWrapper</span></div>
+                  <div><span class="xref">System.IDisposable</span></div>
+              </div>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://iworktech.visualstudio.com/DefaultCollection/_git/xAPI%20Wrapper%20Compoment?path=xAPIWrapper/TincCan.xAPIWrapper.Docs/src/xAPIWrapper.cs&amp;version=GBmaster&amp;line=18" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

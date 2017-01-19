@@ -1,0 +1,15 @@
+﻿{
+  "supports": {},
+  "dependencies": {
+    "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
+    "NETStandard.Library": "1.6.1",
+    "NUnit": "3.6.0",
+    "NUnit.Console": "3.5.0",
+    "NUnit.ConsoleRunner": "3.5.0",
+    "NUnit3TestAdapter": "3.6.0",
+    "NUnitLite": "3.6.0"
+  },
+  "frameworks": {
+    "netstandard1.6": {}
+  }
+}
