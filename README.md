@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/iWorkTech/xAPIWrapper/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# Welcome to the TINCAN .NET Standard Library.
+- **ver v1.0.0 Beta
+- More information about xAPI/TINCAN can be found here [ADL](https://www.adlnet.gov/adl-research/performance-tracking-analysis/experience-api/)
+- For technical documentation please refer to this site on [TINCAN API](http://tincanapi.com/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/iWorkTech/xAPIWrapper/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Quick Start Notes:
+1. TINCAN Standard Library is a .NET Standard 1.6 compatible library
+2. It's an xAPIWrapper port, implemented in c# to interface with any LRS
+3. The library can be used with plaftfroms that support the .NET Standard
+4. The xAPIWrapper eliminated the need for client/end user to know the internals of the TINCAN specification
+5. The xAPIWrapper implemention makes is as a adding Log statetment to your projects
