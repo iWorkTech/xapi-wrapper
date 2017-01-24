@@ -5,7 +5,7 @@
 - For more information on xAPI/TINCAN can be found here [ADL](https://www.adlnet.gov/adl-research/performance-tracking-analysis/experience-api/)
 - For technical documentation can be found here [TINCAN API](http://tincanapi.com/)
 - For more information on Xamarin can be found here [Xamarin](http://www.xamarin.com/)
-- For the xAPIWrapper technical API documentation can be found here [xAPI Wrapper Docs](http://xapi.iworktech.com/index.html)
+- xAPIWrapper Technical API documentation can be found here [xAPI Wrapper Docs](http://xapi.iworktech.com/index.html)
 
 ## Quick Start Notes:
 1. TINCAN Standard Library is a .NET Standard 1.6 compatible library
