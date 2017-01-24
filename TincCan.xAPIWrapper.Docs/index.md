@@ -1,9 +1,9 @@
 # Welcome to the C# xAPIWrapper
 ### A .NET Standard Library for interfacing with any Learning Record Store (LRS)
 - **ver v1.0.0 Beta
-- For more information on xAPI/TINCAN can be found here [ADL](https://www.adlnet.gov/adl-research/performance-tracking-analysis/experience-api/)
-- For technical documentation can be found here [TINCAN API](http://tincanapi.com/)
-- For more information on Xamarin can be found here [Xamarin](http://www.xamarin.com/)
+- More information on xAPI/TINCAN can be found here [ADL](https://www.adlnet.gov/adl-research/performance-tracking-analysis/experience-api/)
+- technical documentation can be found here [TINCAN API](http://tincanapi.com/)
+- More information on Xamarin can be found here [Xamarin](http://www.xamarin.com/)
 - xAPIWrapper Technical API documentation can be found here [xAPI Wrapper Docs](http://xapi.iworktech.com/index.html)
 
 ## Quick Start Notes:
